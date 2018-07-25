@@ -1,0 +1,652 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "wasupp"
+      },
+      {
+        "intent": "greet",
+        "text": "let's start"
+      },
+      {
+        "intent": "greet",
+        "text": "help me"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "alright"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "affirm_log",
+        "text": "yes i want to log in"
+      },
+      {
+        "intent": "affirm_log",
+        "text": "yes i would like to log in"
+      },
+      {
+        "intent": "affirm_log",
+        "text": "yes log me in"
+      },
+      {
+        "intent": "deny_log",
+        "text": "no i dont want to log in"
+      },
+      {
+        "intent": "deny_log",
+        "text": "no i donot want to log in"
+      },
+      {
+        "intent": "deny_log",
+        "text": "do not want to log in"
+      },
+      {
+        "intent": "transfer",
+        "text": "i would like to transfer money"
+      },
+      {
+        "intent": "transfer",
+        "text": "i want to transfer money to an account"
+      },
+      {
+        "intent": "transfer",
+        "text": "transfer money"
+      },
+      {
+        "intent": "transfer",
+        "text": "let's transfer some money"
+      },
+      {
+        "intent": "transfer",
+        "text": "transfer balance"
+      },
+      {
+        "intent": "transfer",
+        "text": "transfr"
+      },
+      {
+        "intent": "transfer",
+        "text": "transfer"
+      },
+      {
+        "intent": "transfer",
+        "text": "i want to transfer money to a friend"
+      },
+      {
+        "intent": "transfer",
+        "text": "i want to transfer money to another account"
+      },
+      {
+        "intent": "transfer",
+        "text": "i would like to transfer to another account"
+      },
+      {
+        "intent": "transfer",
+        "text": "i want to send money"
+      },
+      {
+        "intent": "transfer",
+        "text": "send amount"
+      },
+      {
+        "intent": "transfer",
+        "text": "send amont"
+      },
+      {
+        "intent": "transfer",
+        "text": "i wanna transfer money"
+      },
+      {
+        "intent": "transfer",
+        "text": "want to transfer money"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "not any more"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "no i'm done"
+      },
+      {
+        "intent": "deny",
+        "text": "nothing"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "balance",
+        "text": "balance"
+      },
+      {
+        "intent": "balance",
+        "text": "show me my balance"
+      },
+      {
+        "intent": "balance",
+        "text": "view balance"
+      },
+      {
+        "intent": "balance",
+        "text": "show my balance"
+      },
+      {
+        "intent": "balance",
+        "text": "what is my balance"
+      },
+      {
+        "intent": "balance",
+        "text": "show my account balance"
+      },
+      {
+        "intent": "balance",
+        "text": "i want to check my balance"
+      },
+      {
+        "intent": "balance",
+        "text": "i would like to check my account balance"
+      },
+      {
+        "intent": "balance",
+        "text": "show my account balance"
+      },
+      {
+        "intent": "balance",
+        "text": "show me my account balance"
+      },
+      {
+        "intent": "balance",
+        "text": "let me know my balance"
+      },
+      {
+        "intent": "balance",
+        "text": "bal"
+      },
+      {
+        "intent": "balance",
+        "text": "what is my balance?"
+      },
+      {
+        "intent": "balance",
+        "text": "how much balance do i have in my account?"
+      },
+      {
+        "intent": "balance",
+        "text": "can you show me the account balance?"
+      },
+      {
+        "intent": "balance",
+        "text": "let me know my account balance"
+      },
+      {
+        "intent": "balance",
+        "text": "take me to my balance"
+      },
+      {
+        "intent": "offers",
+        "text": "what's new?"
+      },
+      {
+        "intent": "offers",
+        "text": "show me the offers"
+      },
+      {
+        "intent": "offers",
+        "text": "show me your offers"
+      },
+      {
+        "intent": "offers",
+        "text": "what offers are you providing?"
+      },
+      {
+        "intent": "offers",
+        "text": "any new service?"
+      },
+      {
+        "intent": "offers",
+        "text": "new offers"
+      },
+      {
+        "intent": "offers",
+        "text": "i would like to see your offers"
+      },
+      {
+        "intent": "offers",
+        "text": "i want to view new offers"
+      },
+      {
+        "intent": "offers",
+        "text": "i want to check for new offers"
+      },
+      {
+        "intent": "offers",
+        "text": "i want a look at new services"
+      },
+      {
+        "intent": "offers",
+        "text": "let me look at new offers"
+      },
+      {
+        "intent": "describe_loans",
+        "text": "tell something about the loan offers"
+      },
+      {
+        "intent": "describe_loans",
+        "text": "i want to know more about loans"
+      },
+      {
+        "intent": "describe_loans",
+        "text": "please tell me more about the loan offers"
+      },
+      {
+        "intent": "describe_loans",
+        "text": "how do i apply for the loans"
+      },
+      {
+        "intent": "describe_loans",
+        "text": "i would like to know more about loan offers"
+      },
+      {
+        "intent": "describe_loans",
+        "text": "i would like to know what loan offers you have"
+      },
+      {
+        "intent": "describe_loans",
+        "text": "what are your loan offers?"
+      },
+      {
+        "intent": "describe_loans",
+        "text": "what loan offers do you have?"
+      },
+      {
+        "intent": "describe_credit",
+        "text": "tell something about the credit card offers"
+      },
+      {
+        "intent": "describe_credit",
+        "text": "i want to know more about credit cards"
+      },
+      {
+        "intent": "describe_credit",
+        "text": "please tell me more about the credit card offers"
+      },
+      {
+        "intent": "describe_credit",
+        "text": "how do i avail the credit card?"
+      },
+      {
+        "intent": "describe_credit",
+        "text": "i would like to know more about credit cards"
+      },
+      {
+        "intent": "describe_credit",
+        "text": "i would like to know what credit card offers you have"
+      },
+      {
+        "intent": "describe_credit",
+        "text": "what are your credit card offers?"
+      },
+      {
+        "intent": "describe_credit",
+        "text": "what credit card offers do you have?"
+      },
+      {
+        "intent": "describe_debit",
+        "text": "tell something about the debit card offers"
+      },
+      {
+        "intent": "describe_debit",
+        "text": "i want to know more about debit cards"
+      },
+      {
+        "intent": "describe_debit",
+        "text": "please tell me more about the debit card offers"
+      },
+      {
+        "intent": "describe_debit",
+        "text": "how do i avail the debit card?"
+      },
+      {
+        "intent": "describe_debit",
+        "text": "i would like to know more about debit cards"
+      },
+      {
+        "intent": "describe_debit",
+        "text": "i would like to know what debit card offers you have"
+      },
+      {
+        "intent": "describe_debit",
+        "text": "what are your debit card offers?"
+      },
+      {
+        "intent": "describe_debit",
+        "text": "what debit card offers do you have?"
+      },
+      {
+        "intent": "input_loginid",
+        "text": "my login id is 12345"
+      },
+      {
+        "intent": "input_loginid",
+        "text": "my id is 12345"
+      },
+      {
+        "intent": "input_loginid",
+        "text": "login as 12345"
+      },
+      {
+        "intent": "input_loginid",
+        "text": "log me as 12345"
+      },
+      {
+        "intent": "input_loginid",
+        "text": "log me in as 12345"
+      },
+      {
+        "intent": "input_loginid",
+        "text": "my account number is 12345"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "receiver is 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "send money to 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "send amount to 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "i want to send amount to 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "receiving account is 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "i would like to send to account number 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "send to account number 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "i want to send it to account number 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "i want to send the amount to account number 4567"
+      },
+      {
+        "intent": "input_receiveracc",
+        "text": "the receiver's account number is 1234"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "send 1000 to receiver"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "send Rs1000 to receiver"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "send Rs 1000 to receiver"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "amount is 2000"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "money i want to transfer is 1000"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "amount i want to send is 2000"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "i want to transfer Rs 3456"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "i want to transfer Rs3456"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "i want to send Rs 3456"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "i want to send Rs3456"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "i would like to transfer 4000"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "i would like to transfer Rs 4000"
+      },
+      {
+        "intent": "input_transferamt",
+        "text": "i would like to transfer Rs4000"
+      },
+      {
+        "intent": "input_email",
+        "text": "my email id is abc@gmail.com"
+      },
+      {
+        "intent": "input_email",
+        "text": "it is xyz@yahoo.com"
+      },
+      {
+        "intent": "input_email",
+        "text": "mail it to abcd@gmail.com"
+      },
+      {
+        "intent": "what_services",
+        "text": "what do you do?"
+      },
+      {
+        "intent": "what_services",
+        "text": "what are your functions?"
+      },
+      {
+        "intent": "what_services",
+        "text": "what services can you provide?"
+      },
+      {
+        "intent": "what_services",
+        "text": "what can you do for me?"
+      },
+      {
+        "intent": "what_services",
+        "text": "what can you do?"
+      },
+      {
+        "intent": "no_account",
+        "text": "but i dont have an account"
+      },
+      {
+        "intent": "no_account",
+        "text": "i donot have an account"
+      },
+      {
+        "intent": "no_account",
+        "text": "i dont have any login id"
+      },
+      {
+        "intent": "no_account",
+        "text": "i forgot my login id"
+      },
+      {
+        "intent": "no_account",
+        "text": "i dont have an account number"
+      },
+      {
+        "intent": "no_account",
+        "text": "i forgot my account number"
+      },
+      {
+        "intent": "creators",
+        "text": "who created you?"
+      },
+      {
+        "intent": "creators",
+        "text": "how were you developed?"
+      },
+      {
+        "intent": "creators",
+        "text": "what platform are you running on?"
+      },
+      {
+        "intent": "creators",
+        "text": "what backend are you using?"
+      },
+      {
+        "intent": "creators",
+        "text": "who are your developers?"
+      },
+      {
+        "intent": "creators",
+        "text": "who trained you?"
+      },
+      {
+        "intent": "creators",
+        "text": "how were you built?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,181 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_ask_login_for_services
+- utter_goodbye
+- utter_goodbye_logout
+- utter_anythingelse
+- utter_anythingelse_ext
+- utter_default
+- utter_success
+- utter_fail
+- utter_askAccNo
+- utter_askAmt
+- utter_incompletedata
+- utter_wait
+- utter_retry
+- utter_balance
+- utter_login
+- utter_loginsuccess
+- utter_offers1
+- utter_offers2
+- utter_loanDesc
+- utter_creditCardDesc
+- utter_debitCardDesc
+- utter_askregister
+- utter_confirmregister
+- utter_extra
+- utter_askmail
+- utter_askservice
+- utter_optional
+- utter_bot_services
+- utter_account_help
+- utter_bot_details
+actions:
+- utter_greet
+- utter_ask_login_for_services
+- utter_goodbye
+- utter_goodbye_logout
+- utter_anythingelse
+- utter_anythingelse_ext
+- utter_default
+- utter_success
+- utter_fail
+- utter_askAccNo
+- utter_askAmt
+- utter_incompletedata
+- utter_wait
+- utter_retry
+- utter_balance
+- utter_login
+- utter_loginsuccess
+- utter_offers1
+- utter_offers2
+- utter_loanDesc
+- utter_creditCardDesc
+- utter_debitCardDesc
+- utter_askregister
+- utter_confirmregister
+- utter_extra
+- utter_askmail
+- utter_askservice
+- utter_optional
+- utter_bot_services
+- utter_account_help
+- utter_bot_details
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+- affirm
+- affirm_log
+- deny
+- deny_log
+- default
+- balance
+- transfer
+- offers
+- describe_loans
+- describe_credit
+- describe_debit
+- input_loginid
+- input_receiveracc
+- input_transferamt
+- input_email
+- what_services
+- no_account
+- creators
+slots:
+  loginId:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  mail:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  offerName:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  receiverAcc:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  transferAmt:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_account_help:
+  - text: Sorry! You cannot use my services without an account number. You can still
+      browse our offers if you donot wish to log in.
+  utter_anythingelse:
+  - text: May I help you with anything else?
+  utter_anythingelse_ext:
+  - text: Would you like to avail my other services?
+  utter_askAccNo:
+  - text: What is the receiver's account number?
+  utter_askAmt:
+  - text: How much amount would you like to transfer?
+  utter_ask_login_for_services:
+  - text: To avail my services, you may need to log in to your account. Would you
+      like to log in now?
+  utter_askmail:
+  - text: Please enter your email address to receive offer details.
+  utter_askregister:
+  - text: Do you wish to register for this offer?
+  utter_askservice:
+  - text: What service would you like to avail?
+  utter_balance:
+  - text: Your account balance is XXXXX
+  utter_bot_details:
+  - text: I am a chatbot running on RASA core with a backend of SPACY/tensorflow (powered
+      by Python). I was trained by Gulshan Kumar, Sahil Kumar & Piyush Nandi.
+  utter_bot_services:
+  - text: I am chatbot for customer banking support. As of now, I can help you in
+      money transfer, balance checking and offer browsing.
+  utter_confirmregister:
+  - text: A memo of registration details will be mailed to you shortly.
+  utter_creditCardDesc:
+  - text: Credit Card Offers
+  utter_debitCardDesc:
+  - text: Debit Card Offers
+  utter_default:
+  - text: Sorry, I didn't understand what you said.
+  utter_extra:
+  - text: Would you like to browse our offers?
+  utter_fail:
+  - text: Sorry! Transaction Failed.
+  utter_goodbye:
+  - text: Bye! Thank you for using our services.
+  utter_goodbye_logout:
+  - text: You have been successfully logged out. Thank you for using my services!
+  utter_greet:
+  - text: Hello!
+  - text: Hey!
+  - text: Hi!
+  utter_incompletedata:
+  - text: Data is incomplete!
+  utter_loanDesc:
+  - text: Home/car/education loan offers
+  utter_login:
+  - text: What is your login ID (account number)?
+  utter_loginsuccess:
+  - text: Login Successful!
+  utter_offers1:
+  - buttons:
+    - payload: Loan
+      title: Loan
+    - payload: Credit Card
+      title: Credit Card
+    - payload: Debit Card
+      title: Debit Card
+    text: 'Some of the most popular offers are:'
+  utter_offers2:
+  - text: Which offer would you like to know more about?
+  utter_optional:
+  - text: (You may also ask me any other question. I'll try my best to answer it.)
+  utter_retry:
+  - text: Please try again
+  utter_success:
+  - text: Transaction Successful.
+  utter_wait:
+  - text: Please wait a moment...
+topics: []

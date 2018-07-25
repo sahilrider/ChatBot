@@ -1,0 +1,145 @@
+intents:
+  #add your intents
+  - greet
+  - affirm
+  - affirm_log
+  - deny
+  - deny_log
+  - default
+  - balance
+  - transfer
+  - offers
+  - describe_loans
+  - describe_credit
+  - describe_debit
+  - input_loginid
+  - input_receiveracc
+  - input_transferamt
+  - input_email
+  - what_services
+  - no_account
+  - creators
+
+slots:
+  loginId:
+    type: text
+
+  offerName:
+    type: text
+
+  receiverAcc:
+    type: text
+
+  transferAmt:
+    type: text
+
+  mail:
+    type: text
+
+actions:
+
+  - utter_greet
+  - utter_ask_login_for_services
+  - utter_goodbye
+  - utter_goodbye_logout
+  #- utter_asklogin
+  - utter_anythingelse
+  - utter_anythingelse_ext
+  - utter_default
+  - utter_success
+  - utter_fail
+  - utter_askAccNo
+  - utter_askAmt
+  - utter_incompletedata
+  - utter_wait
+  - utter_retry
+  - utter_balance
+  - utter_login
+  - utter_loginsuccess
+  - utter_offers1
+  - utter_offers2
+  - utter_loanDesc
+  - utter_creditCardDesc
+  - utter_debitCardDesc
+  - utter_askregister
+  - utter_confirmregister
+  - utter_extra
+  - utter_askmail
+  - utter_askservice
+  - utter_optional
+  - utter_bot_services
+  - utter_account_help
+  - utter_bot_details
+templates:
+  #templates the bot should respond with
+  utter_greet:
+    - "Hello!"
+    - "Hey!"
+    - "Hi!"
+  utter_ask_login_for_services:
+    - "To avail my services, you may need to log in to your account. Would you like to log in now?"
+  utter_optional:
+    - "(You may also ask me any other question. I'll try my best to answer it.)"
+  utter_goodbye:
+    - "Bye! Thank you for using our services."
+  utter_goodbye_logout:
+    - "You have been successfully logged out. Thank you for using my services!"
+  utter_anythingelse:
+    - "May I help you with anything else?"
+  utter_anythingelse_ext:
+    - "Would you like to avail my other services?"
+  utter_default:
+    - "Sorry, I didn't understand what you said."
+  utter_success:
+    - "Transaction Successful."
+  utter_fail:
+    - "Sorry! Transaction Failed."
+  utter_askAccNo:
+    - "What is the receiver's account number?"
+  utter_askAmt:
+    - "How much amount would you like to transfer?"
+  utter_incompletedata:
+    - "Data is incomplete!"
+  utter_wait:
+    - "Please wait a moment..."
+  utter_retry:
+    - "Please try again"
+  utter_balance:
+    - "Your account balance is XXXXX"
+  utter_login:
+    - "What is your login ID (account number)?"
+  utter_loginsuccess:
+    - "Login Successful!"
+  utter_offers1:
+    - text: "Some of the most popular offers are:"
+      buttons:
+      - title: "Loan"
+        payload: "Loan"
+      - title: "Credit Card"
+        payload: "Credit Card"
+      - title: "Debit Card"
+        payload: "Debit Card"
+  utter_offers2:
+    - "Which offer would you like to know more about?"
+  utter_loanDesc:
+    - "Home/car/education loan offers"
+  utter_creditCardDesc:
+    - "Credit Card Offers"
+  utter_debitCardDesc:
+    - "Debit Card Offers"
+  utter_askregister:
+    - "Do you wish to register for this offer?"
+  utter_confirmregister:
+    - "A memo of registration details will be mailed to you shortly."
+  utter_extra:
+    - "Would you like to browse our offers?"
+  utter_askmail:
+    - "Please enter your email address to receive offer details."
+  utter_askservice:
+    - "What service would you like to avail?"
+  utter_bot_services:
+    - "I am chatbot for customer banking support. As of now, I can help you in money transfer, balance checking and offer browsing."
+  utter_account_help:
+    - "Sorry! You cannot use my services without an account number. You can still browse our offers if you donot wish to log in."
+  utter_bot_details:
+    - "I am a chatbot running on RASA core with a backend of SPACY/tensorflow (powered by Python). I was trained by Gulshan Kumar, Sahil Kumar & Piyush Nandi."

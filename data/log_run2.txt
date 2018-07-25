@@ -1,0 +1,49 @@
+hi
+Hey!
+To avail my services, you may need to log in to your account. Would you like to log in now?
+(You may also ask me any other question. I'll try my best to answer it.)
+yes log me in
+What is your login ID (account number)?
+12245
+Login Successful!
+What service would you like to avail?
+show my balance
+Your account balance is XXXXX
+May I help you with anything else?
+no
+You have been successfully logged out. Thank you for using my services!
+To avail my services, you may need to log in to your account. Would you like to log in now?
+(You may also ask me any other question. I'll try my best to answer it.)
+dont want to log in
+Would you like to browse our offers?
+yes
+Some of the most popular offers are:
+1: Loan (Loan)
+2: Credit Card (Credit Card)
+3: Debit Card (Debit Card)
+Which offer would you like to know more about?
+debit card offers
+Debit Card Offers
+Do you wish to register for this offer?
+no
+Would you like to avail my other services?
+no
+Bye! Thank you for using our services.
+To avail my services, you may need to log in to your account. Would you like to log in now?
+(You may also ask me any other question. I'll try my best to answer it.)
+who are you?
+I am a chatbot running on RASA core with a backend of SPACY/tensorflow (powered by Python). I was trained by Gulshan Kumar, Sahil Kumar & Piyush Nandi.
+To avail my services, you may need to log in to your account. Would you like to log in now?
+(You may also ask me any other question. I'll try my best to answer it.)
+who trained you?
+I am a chatbot running on RASA core with a backend of SPACY/tensorflow (powered by Python). I was trained by Gulshan Kumar, Sahil Kumar & Piyush Nandi.
+To avail my services, you may need to log in to your account. Would you like to log in now?
+(You may also ask me any other question. I'll try my best to answer it.)
+what do you do?
+I am chatbot for customer banking support. As of now, I can help you in money transfer, balance checking and offer browsing.
+To avail my services, you may need to log in to your account. Would you like to log in now?
+(You may also ask me any other question. I'll try my best to answer it.)
+i dont have an account
+Sorry! You cannot use my services without an account number. You can still browse our offers if you donot wish to log in.
+To avail my services, you may need to log in to your account. Would you like to log in now?
+(You may also ask me any other question. I'll try my best to answer it.)

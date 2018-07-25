@@ -1,0 +1,234 @@
+
+Bot loaded. Type a message and press enter:
+hello
+2018-07-01 16:43:33 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Hello! To avail services, you need to log in to your account. Would you like to
+log in now?
+yes
+2018-07-01 16:44:57 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Please enter your login ID (account number)
+my id is 12345
+2018-07-01 16:45:25 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Login Successful!
+what's my balance?
+2018-07-01 16:46:03 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+May I help with anything else?
+yes
+2018-07-01 16:48:33 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+What service would you like to avail?
+transfer money
+2018-07-01 16:49:22 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Please provide receiver's account number.
+send money to 4567
+2018-07-01 16:49:48 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Please provide amount to transfer to account number None.
+1000
+2018-07-01 16:50:19 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Transaction Successful.
+May I help with anything else?
+no
+2018-07-01 16:50:37 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Goodbye!!!
+hello
+2018-07-01 16:51:31 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Hello! To avail services, you need to log in to your account. Would you like to
+log in now?
+no
+2018-07-01 16:56:46 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Would you like to browse our offers?
+yes
+2018-07-01 16:56:50 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Some of the most popular offers are:
+1: Loan (Loan)
+2: Credit Card (Credit Card)
+3: Debit Card (Debit Card)
+loan
+2018-07-01 16:56:59 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Credit Card Offers
+Do you wish to register for this offer?
+no
+2018-07-01 16:57:34 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Bye Bye
+hello
+2018-07-01 16:57:41 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Hello! To avail services, you need to log in to your account. Would you like to
+log in now?
+no
+2018-07-01 16:57:47 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Would you like to browse our offers?
+no
+2018-07-01 16:57:49 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Bye Bye
+hi
+2018-07-01 16:57:54 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Hello! To avail services, you need to log in to your account. Would you like to
+log in now?
+no
+2018-07-01 16:57:57 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Would you like to browse our offers?
+yes
+2018-07-01 16:57:59 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Some of the most popular offers are:
+1: Loan (Loan)
+2: Credit Card (Credit Card)
+3: Debit Card (Debit Card)
+tell something about loan
+2018-07-01 17:01:34 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Home/car/education loan offers
+Do you wish to register for this offer?
+yes
+2018-07-01 17:01:39 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+A memo of registration details will be mailed to you shortly.
+May I help with anything else?
+yes
+2018-07-01 17:02:13 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+What service would you like to avail?
+offers
+2018-07-01 17:02:19 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Some of the most popular offers are:
+1: Loan (Loan)
+2: Credit Card (Credit Card)
+3: Debit Card (Debit Card)
+3
+2018-07-01 17:02:23 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+what is credit card
+2018-07-01 17:02:39 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Do you wish to register for this offer?
+no
+2018-07-01 17:02:49 WARNING  py.warnings  - C:\Users\Sahil\Miniconda3\lib\site-p
+ackages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value
+of an empty array is ambiguous. Returning False, but in future this will result
+in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Goodbye!!!
